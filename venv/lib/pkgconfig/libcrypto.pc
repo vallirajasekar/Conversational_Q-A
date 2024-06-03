@@ -1,0 +1,11 @@
+libdir=/Users/vallirajasekar/Desktop/gemini/Conversational Q&A/venv/lib
+includedir=/Users/vallirajasekar/Desktop/gemini/Conversational Q&A/venv/include
+enginesdir=/Users/vallirajasekar/Desktop/gemini/Conversational Q&A/venv/lib/engines-3
+modulesdir=/Users/vallirajasekar/Desktop/gemini/Conversational Q&A/venv/lib/ossl-modules
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Version: 3.3.0
+Libs: -L${libdir} -lcrypto
+Libs.private: 
+Cflags: -I${includedir}

@@ -1,0 +1,7 @@
+libdir=/Users/vallirajasekar/Desktop/gemini/Conversational Q&A/venv/lib
+includedir=/Users/vallirajasekar/Desktop/gemini/Conversational Q&A/venv/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 3.3.0
+Requires: libssl libcrypto
